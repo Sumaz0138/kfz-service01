@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 2,
+  "colorMeta": {
+    "primary": {
+      "displayName": "Werkstatt-Rot",
+      "hex": "#e8222e",
+      "oklch": "oklch(59.7% 0.227 25.5)",
+      "role": "The single saturated accent. Reserved for trust-and-action moments: phone CTA, badges, service icons, hover glows, the Kontakt section flip.",
+      "tonalRamp": ["#330000", "#640000", "#950000", "#c20002", "#e83035", "#ff6a63", "#ff9f95", "#ffd4cb"]
+    },
+    "primary-deep": {
+      "displayName": "Werkstatt-Rot Vertieft",
+      "hex": "#b81820",
+      "oklch": "oklch(50.2% 0.191 26.0)",
+      "role": "Hover/active state for every red element.",
+      "tonalRamp": ["#2e0000", "#5c0000", "#8a0000", "#b5131d", "#db4843", "#fa776e", "#ffa79d", "#ffd9d0"]
+    },
+    "primary-tint": {
+      "displayName": "Werkstatt-Rot Schimmer",
+      "hex": "#e8222e17",
+      "oklch": "oklch(59.7% 0.227 25.5 / 0.09)",
+      "role": "9% tint of primary, used as the background behind badges and the highlighted Ölwechsel service card. Derived from primary; no independent ramp.",
+      "tonalRamp": null
+    },
+    "neutral-paper": {
+      "displayName": "Warmes Papier",
+      "hex": "#f9f7f4",
+      "oklch": "oklch(97.7% 0.005 78.3)",
+      "role": "Page background. The base every other surface sits on.",
+      "tonalRamp": ["#0c0b0a", "#262523", "#43423f", "#63615e", "#84827f", "#a6a5a2", "#cac9c7", "#efeeed"]
+    },
+    "neutral-white": {
+      "displayName": "Reinweiß",
+      "hex": "#ffffff",
+      "oklch": "oklch(100.0% 0.000 89.9)",
+      "role": "Nav-button text, Kontakt-section button surface, stat cards, image-card resting background.",
+      "tonalRamp": null
+    },
+    "neutral-surface": {
+      "displayName": "Werkbank-Beige",
+      "hex": "#f0ede8",
+      "oklch": "oklch(94.7% 0.007 80.7)",
+      "role": "Surface for default service cards — one shade off the page background.",
+      "tonalRamp": ["#0c0b09", "#272522", "#44423e", "#63615d", "#84827e", "#a7a5a1", "#cbc9c5", "#f0eeec"]
+    },
+    "neutral-surface-deep": {
+      "displayName": "Werkbank-Schatten",
+      "hex": "#e8e4de",
+      "oklch": "oklch(92.0% 0.009 78.3)",
+      "role": "Deepest neutral, used sparingly for secondary surfaces.",
+      "tonalRamp": ["#0d0b08", "#272521", "#45413d", "#64615c", "#85827d", "#a8a4a0", "#cbc9c5", "#f0eeeb"]
+    },
+    "neutral-border": {
+      "displayName": "Haarlinie",
+      "hex": "#00000014",
+      "oklch": "oklch(0% 0 0 / 0.08)",
+      "role": "1.5px border on every card, outline button, and table. The structural edge (Machined-Edge Rule).",
+      "tonalRamp": null
+    },
+    "neutral-border-soft": {
+      "displayName": "Haarlinie Sanft",
+      "hex": "#0000000d",
+      "oklch": "oklch(0% 0 0 / 0.05)",
+      "role": "Section dividers (top/bottom borders on Leistungen and Öffnungszeiten).",
+      "tonalRamp": null
+    },
+    "ink": {
+      "displayName": "Werkstatt-Tinte",
+      "hex": "#111111",
+      "oklch": "oklch(17.8% 0.000 89.9)",
+      "role": "Primary text color, and — inverted — the footer background.",
+      "tonalRamp": ["#0b0b0b", "#252525", "#424242", "#616161", "#828282", "#a5a5a5", "#c9c9c9", "#eeeeee"]
+    },
+    "ink-dim": {
+      "displayName": "Tinte Gedämpft",
+      "hex": "#666666",
+      "oklch": "oklch(51.0% 0.000 89.9)",
+      "role": "Secondary text — section subheads, card descriptions, FAQ answers. Body copy is always this, never full ink.",
+      "tonalRamp": null
+    },
+    "ink-muted": {
+      "displayName": "Tinte Matt",
+      "hex": "#aaaaaa",
+      "oklch": "oklch(73.8% 0.000 89.9)",
+      "role": "Tertiary text — e.g. \"Geschlossen\" in the opening-hours table. The least prominent label on the page.",
+      "tonalRamp": null
+    },
+    "ink-faint": {
+      "displayName": "Tinte Hell",
+      "hex": "#888888",
+      "oklch": "oklch(62.7% 0.000 89.9)",
+      "role": "Footer logo and link color against the dark (ink) footer background.",
+      "tonalRamp": null
+    }
+  },
+  "typographyMeta": {
+    "display": {
+      "displayName": "Display",
+      "usage": "Hero H1 only — three-line stack with the middle line in primary. The loudest moment on the page, used exactly once."
+    },
+    "headline": {
+      "displayName": "Headline",
+      "usage": "Every section headline (Leistungen, Vorteile, Öffnungszeiten, Kontakt, FAQ). Same weight and tracking discipline as Display, smaller scale."
+    },
+    "title": {
+      "displayName": "Title",
+      "usage": "Service card titles. Bridges Headline's weight with Body's scale."
+    },
+    "body": {
+      "displayName": "Body",
+      "usage": "Hero subhead, section subheads, card descriptions, FAQ answers. Always ink-dim, never full ink — body copy is deliberately one step quieter than headings."
+    },
+    "label": {
+      "displayName": "Label",
+      "usage": "Nav links, button text, stat labels, and (at 700 weight, uppercase, 0.12em tracking) section badges."
+    },
+    "mono": {
+      "displayName": "Mono",
+      "usage": "Floating hero chip text and opening-hours times only. A deliberate 'logbook' texture against the Outfit voice — never used for body or headings."
+    }
+  },
+  "shadows": {
+    "ambient-chip-glow": {
+      "displayName": "Ambient Chip Glow",
+      "css": "0 4px 18px rgba(0, 0, 0, 0.07)",
+      "usage": "Floating hero chips, at rest. The one shadow on the page that isn't hover-triggered — it's what makes the chips read as hovering above the canvas."
+    },
+    "cta-glow": {
+      "displayName": "CTA Glow",
+      "css": "0 4px 20px rgba(232, 34, 46, 0.28)",
+      "hoverCss": "0 8px 30px rgba(232, 34, 46, 0.38)",
+      "usage": "Primary red buttons (hero, footer CTAs)."
+    },
+    "nav-cta-glow": {
+      "displayName": "Nav CTA Glow",
+      "css": "0 2px 12px rgba(232, 34, 46, 0.25)",
+      "hoverCss": "0 4px 18px rgba(232, 34, 46, 0.35)",
+      "usage": "Compact nav button — same family as CTA Glow, smaller scale."
+    },
+    "card-hover-glow": {
+      "displayName": "Card Hover Glow",
+      "css": "0 12px 40px rgba(232, 34, 46, 0.08)",
+      "usage": "Service cards on hover, paired with a border shift to primary at 35% opacity and a 4px lift. No shadow at rest (Machined-Edge Rule)."
+    },
+    "inverted-button-glow": {
+      "displayName": "Inverted Button Glow",
+      "css": "0 4px 20px rgba(0, 0, 0, 0.12)",
+      "hoverCss": "0 8px 30px rgba(0, 0, 0, 0.18)",
+      "usage": "White button inside the red Kontakt section — the only place a neutral shadow sits on a colored surface."
+    }
+  },
+  "motion": {
+    "reveal-fade": {
+      "displayName": "Scroll Reveal",
+      "description": "Sections rise from opacity 0 / translateY(28px) to visible on scroll via IntersectionObserver, transition 0.7s ease. .delay-1/2/3 stagger by 0.1s/0.2s/0.32s.",
+      "reducedMotion": "Disabled entirely — content renders at its final visible state immediately."
+    },
+    "chip-float": {
+      "displayName": "Chip Float",
+      "description": "Each floating hero chip drifts ±10px vertically on its own 6-9s ease-in-out loop, staggered and alternating direction. Calm and asynchronous, never synchronized.",
+      "reducedMotion": "Disabled entirely."
+    },
+    "dot-blink": {
+      "displayName": "Chip Dot Pulse",
+      "description": "Small primary-colored dot on two of the four hero chips pulses opacity 1 → 0.25 over 2.5s ease-in-out, infinite.",
+      "reducedMotion": "Disabled entirely."
+    },
+    "morph-shape": {
+      "displayName": "Morph Blob",
+      "description": "Organic radial-gradient blob behind the Leistungen section continuously reshapes via animated border-radius, activated by IntersectionObserver when #leistungen scrolls into view.",
+      "reducedMotion": "Disabled entirely."
+    },
+    "gear-rotation": {
+      "displayName": "Hero Gear Canvas",
+      "description": "Two-gear illustration (large primary-outlined 18-tooth gear meshed with a smaller ink-outlined 11-tooth gear, 5-6% fill) rotates continuously on <canvas> at 0.004 rad/frame via requestAnimationFrame. Pauses via IntersectionObserver when off-screen.",
+      "reducedMotion": "Canvas animation is skipped entirely; a static frame (or nothing) renders instead."
+    }
+  },
+  "breakpoints": {
+    "mobile": {
+      "value": "900px",
+      "description": "The only breakpoint in the system (max-width: 900px). Below it, .nav-links (including the phone CTA) is hidden, leaving only the logo and city badge — flagged in DESIGN.md Don'ts as a gap to close."
+    }
+  },
+  "components": [
+    {
+      "name": "ds-button-primary",
+      "displayName": "Primary Button",
+      "description": "Filled red pill CTA. The phone call action — appears in hero, nav, and footer.",
+      "html": "<a href=\"tel:+4962051234567\" class=\"ds-button-primary\">\n  <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.11 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.36 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>\n  06205 / 1 23 45 67\n</a>",
+      "css": ".ds-button-primary {\n  display: inline-flex;\n  align-items: center;\n  gap: 0.6rem;\n  padding: 0.85rem 2rem;\n  border-radius: 999px;\n  background: #e8222e;\n  color: #ffffff;\n  font-family: 'Outfit', sans-serif;\n  font-size: 0.9rem;\n  font-weight: 700;\n  text-decoration: none;\n  box-shadow: 0 4px 20px rgba(232, 34, 46, 0.28);\n  transition: background-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;\n}\n.ds-button-primary:hover {\n  background: #b81820;\n  box-shadow: 0 8px 30px rgba(232, 34, 46, 0.38);\n  transform: translateY(-2px);\n}\n.ds-button-primary:focus-visible {\n  outline: 2px solid #b81820;\n  outline-offset: 2px;\n}"
+    },
+    {
+      "name": "ds-button-outline",
+      "displayName": "Outline Button",
+      "description": "Transparent pill with a hairline border. Secondary action — color and border shift to primary on hover, no shadow.",
+      "html": "<a href=\"#leistungen\" class=\"ds-button-outline\">Leistungen ansehen</a>",
+      "css": ".ds-button-outline {\n  display: inline-flex;\n  align-items: center;\n  padding: 0.85rem 2rem;\n  border-radius: 999px;\n  border: 1.5px solid rgba(0, 0, 0, 0.08);\n  background: transparent;\n  color: #111111;\n  font-family: 'Outfit', sans-serif;\n  font-size: 0.9rem;\n  font-weight: 700;\n  text-decoration: none;\n  transition: border-color 0.25s ease, color 0.25s ease, transform 0.25s ease;\n}\n.ds-button-outline:hover {\n  border-color: #e8222e;\n  color: #e8222e;\n  transform: translateY(-2px);\n}\n.ds-button-outline:focus-visible {\n  outline: 2px solid #e8222e;\n  outline-offset: 2px;\n}"
+    },
+    {
+      "name": "ds-button-white",
+      "displayName": "White Button (Kontakt)",
+      "description": "Inverted button used only on the red Kontakt section — white fill, primary text, neutral Inverted Button Glow.",
+      "html": "<section class=\"ds-kontakt-demo\">\n  <a href=\"mailto:info@kfz-service01.de\" class=\"ds-button-white\">E-Mail schreiben</a>\n</section>",
+      "css": ".ds-kontakt-demo {\n  background: #e8222e;\n  padding: 2rem;\n  border-radius: 16px;\n}\n.ds-button-white {\n  display: inline-flex;\n  align-items: center;\n  padding: 0.9rem 2.25rem;\n  border-radius: 999px;\n  background: #ffffff;\n  color: #e8222e;\n  font-family: 'Outfit', sans-serif;\n  font-size: 0.9rem;\n  font-weight: 800;\n  text-decoration: none;\n  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);\n  transition: box-shadow 0.25s ease, transform 0.25s ease;\n}\n.ds-button-white:hover {\n  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);\n  transform: translateY(-2px);\n}\n.ds-button-white:focus-visible {\n  outline: 2px solid #ffffff;\n  outline-offset: 2px;\n}"
+    },
+    {
+      "name": "ds-badge",
+      "displayName": "Section Badge",
+      "description": "Small uppercase pill marking a section's category. One per section, tinted-primary text on a 9% primary background.",
+      "html": "<span class=\"ds-badge\">Unsere Leistungen</span>",
+      "css": ".ds-badge {\n  display: inline-flex;\n  align-items: center;\n  padding: 0.3rem 0.9rem;\n  border-radius: 999px;\n  background: rgba(232, 34, 46, 0.09);\n  border: 1px solid rgba(232, 34, 46, 0.2);\n  color: #e8222e;\n  font-family: 'Outfit', sans-serif;\n  font-size: 0.72rem;\n  font-weight: 700;\n  text-transform: uppercase;\n  letter-spacing: 0.12em;\n}"
+    },
+    {
+      "name": "ds-chip",
+      "displayName": "Floating Chip",
+      "description": "White hairline-bordered chip with Ambient Chip Glow and a pulsing primary dot. Floats independently in the hero via chip-float.",
+      "html": "<div class=\"ds-chip\">\n  <span class=\"ds-chip-dot\" aria-hidden=\"true\"></span>\n  Termin frei\n</div>",
+      "css": ".ds-chip {\n  display: inline-flex;\n  align-items: center;\n  gap: 0.5rem;\n  padding: 0.6rem 1rem;\n  border-radius: 10px;\n  background: #ffffff;\n  border: 1.5px solid rgba(0, 0, 0, 0.08);\n  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);\n  font-family: 'JetBrains Mono', monospace;\n  font-size: 0.67rem;\n  color: #111111;\n  animation: ds-chip-float 7s ease-in-out infinite;\n}\n.ds-chip-dot {\n  width: 6px;\n  height: 6px;\n  border-radius: 50%;\n  background: #e8222e;\n  animation: ds-dot-blink 2.5s ease-in-out infinite;\n}\n@keyframes ds-chip-float {\n  0%, 100% { transform: translateY(0); }\n  50% { transform: translateY(-10px); }\n}\n@keyframes ds-dot-blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.25; }\n}\n@media (prefers-reduced-motion: reduce) {\n  .ds-chip, .ds-chip-dot { animation: none; }\n}"
+    },
+    {
+      "name": "ds-card-service",
+      "displayName": "Service Card",
+      "description": "Bento-style card on Werkbank-Beige with a hairline border. Hover lifts 4px, shifts border to tinted primary, adds Card Hover Glow.",
+      "html": "<article class=\"ds-card-service\">\n  <div class=\"ds-card-icon\">\n    <svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#e8222e\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z\"/></svg>\n  </div>\n  <h3 class=\"ds-card-title\">Ölwechsel &amp; Inspektion</h3>\n  <p class=\"ds-card-body\">Regelmäßiger Service nach Herstellervorgaben, für alle Marken und Modelle.</p>\n</article>",
+      "css": ".ds-card-service {\n  background: #f0ede8;\n  border: 1.5px solid rgba(0, 0, 0, 0.08);\n  border-radius: 16px;\n  padding: 1.75rem 2rem;\n  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;\n}\n.ds-card-service:hover {\n  border-color: rgba(232, 34, 46, 0.35);\n  box-shadow: 0 12px 40px rgba(232, 34, 46, 0.08);\n  transform: translateY(-4px);\n}\n.ds-card-icon {\n  width: 44px;\n  height: 44px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 10px;\n  background: rgba(232, 34, 46, 0.09);\n  margin-bottom: 1rem;\n}\n.ds-card-title {\n  font-family: 'Outfit', sans-serif;\n  font-size: 1.15rem;\n  font-weight: 800;\n  letter-spacing: -0.03em;\n  color: #111111;\n  margin: 0 0 0.5rem;\n}\n.ds-card-body {\n  font-family: 'Outfit', sans-serif;\n  font-size: 0.95rem;\n  line-height: 1.7;\n  color: #666666;\n  margin: 0;\n}"
+    },
+    {
+      "name": "ds-card-stat",
+      "displayName": "Stat Card",
+      "description": "White hairline-bordered card pairing a large display number with a label. Hover lifts and shifts border to tinted primary, no glow.",
+      "html": "<div class=\"ds-card-stat\">\n  <span class=\"ds-stat-number\">40+</span>\n  <span class=\"ds-stat-label\">Jahre Erfahrung</span>\n</div>",
+      "css": ".ds-card-stat {\n  background: #ffffff;\n  border: 1.5px solid rgba(0, 0, 0, 0.08);\n  border-radius: 16px;\n  padding: 1.75rem;\n  display: flex;\n  flex-direction: column;\n  gap: 0.35rem;\n  transition: border-color 0.3s ease, transform 0.3s ease;\n}\n.ds-card-stat:hover {\n  border-color: rgba(232, 34, 46, 0.35);\n  transform: translateY(-4px);\n}\n.ds-stat-number {\n  font-family: 'Outfit', sans-serif;\n  font-size: 2.4rem;\n  font-weight: 900;\n  letter-spacing: -0.04em;\n  color: #111111;\n}\n.ds-stat-label {\n  font-family: 'Outfit', sans-serif;\n  font-size: 0.9rem;\n  font-weight: 600;\n  color: #666666;\n}"
+    },
+    {
+      "name": "ds-nav",
+      "displayName": "Nav Bar",
+      "description": "Fixed, frosted-paper nav bar with logo + city badge, plain-text links, and a compact primary CTA. Links collapse below 900px (flagged gap: the CTA collapses with them).",
+      "html": "<nav class=\"ds-nav\">\n  <div class=\"ds-nav-logo\">kfz<span class=\"ds-nav-logo-accent\">01</span><span class=\"ds-nav-city\">Hockenheim</span></div>\n  <div class=\"ds-nav-links\">\n    <a href=\"#leistungen\">Leistungen</a>\n    <a href=\"#vorteile\">Vorteile</a>\n    <a href=\"#oeffnungszeiten\">Öffnungszeiten</a>\n    <a href=\"#kontakt\" class=\"ds-button-primary ds-nav-cta\">Anrufen</a>\n  </div>\n</nav>",
+      "css": ".ds-nav {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: 68px;\n  padding: 0 1.5rem;\n  background: rgba(249, 247, 244, 0.92);\n  backdrop-filter: blur(20px) saturate(1.4);\n  border-bottom: 1.5px solid rgba(0, 0, 0, 0.05);\n}\n.ds-nav-logo {\n  display: flex;\n  align-items: center;\n  gap: 0.6rem;\n  font-family: 'Outfit', sans-serif;\n  font-weight: 900;\n  font-size: 1.15rem;\n  letter-spacing: -0.04em;\n  color: #111111;\n}\n.ds-nav-logo-accent { color: #e8222e; }\n.ds-nav-city {\n  font-family: 'Outfit', sans-serif;\n  font-size: 0.62rem;\n  font-weight: 700;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n  background: #e8222e;\n  color: #ffffff;\n  border-radius: 999px;\n  padding: 0.2rem 0.6rem;\n}\n.ds-nav-links {\n  display: flex;\n  align-items: center;\n  gap: 1.75rem;\n}\n.ds-nav-links a:not(.ds-nav-cta) {\n  font-family: 'Outfit', sans-serif;\n  font-size: 0.9rem;\n  font-weight: 600;\n  color: #666666;\n  text-decoration: none;\n  transition: color 0.2s ease;\n}\n.ds-nav-links a:not(.ds-nav-cta):hover { color: #111111; }\n.ds-nav-cta {\n  padding: 0.55rem 1.3rem;\n  font-size: 0.85rem;\n  box-shadow: 0 2px 12px rgba(232, 34, 46, 0.25);\n}\n.ds-nav-cta:hover {\n  box-shadow: 0 4px 18px rgba(232, 34, 46, 0.35);\n}\n@media (max-width: 900px) {\n  .ds-nav-links a:not(.ds-nav-cta) { display: none; }\n}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Die Vertrauenswerkstatt",
+    "overview": "The page reads like a neighborhood garage run by the same hands for 40 years: warm paper-toned walls, one confident red toolbox, and machinery quietly turning in the background. Werkstatt-Rot (#e8222e) is the single saturated color, reserved for trust-and-action moments — the phone CTA, 'kostenlos' badges, service icons, hover glows, and the one section (Kontakt) that flips the whole surface to red at the point of conversion. Motion is ambient and slow (gear rotation, chip float, scroll reveal) — it signals 'the workshop is alive and working,' never 'look here now.'",
+    "keyCharacteristics": [
+      "One saturated color (Werkstatt-Rot), used only for trust/action, never decoration",
+      "Warm paper neutrals (#f9f7f4 family) as the entire base palette",
+      "900-weight, tightly-tracked Outfit headlines against loose 1.6–1.77 line-height body copy",
+      "1.5px hairline borders give structure at rest; soft colored glows appear only on hover",
+      "Calm, asynchronous ambient motion (gear rotation, chip float, scroll reveal) — never choreographed or urgent",
+      "Full prefers-reduced-motion support throughout"
+    ],
+    "rules": [
+      {
+        "name": "The One Red Rule",
+        "description": "Werkstatt-Rot appears only where trust and action meet: phone CTA, 'kostenlos' badges, service icons, hover glows, and the Kontakt section. Never decorative on its own — every red element is either a call to action or a promise."
+      },
+      {
+        "name": "The Kontakt Flip Rule",
+        "description": "Every section sits on Warmes Papier, White, or Werkbank-Beige. Exactly one section — Kontakt — inverts to full Werkstatt-Rot. This flip is the single color event on the page, landing precisely at the conversion moment."
+      },
+      {
+        "name": "The Tight-Loose Rule",
+        "description": "Headings are always weight 900 with negative letter-spacing (-0.03em to -0.05em); body text is always weight 400 with generous line-height (1.6–1.77). Never soften a heading toward body weight, never tighten body copy."
+      },
+      {
+        "name": "The Machined-Edge Rule",
+        "description": "Every card, outline button, and table uses a 1.5px Haarlinie border — never 1px, never a resting shadow. The border is the structure; the shadow is the reaction to touch."
+      }
+    ],
+    "dos": [
+      "Keep Werkstatt-Rot (#e8222e) as the only saturated color on the page; every other surface is Warmes Papier, White, Werkbank-Beige, or a neutral ink tone (One Red Rule).",
+      "Use full pills (999px) for every actionable element — buttons, badges, chips, nav CTA — and 16px/10px rounding for structural containers. Never mix the two.",
+      "Keep 1.5px Haarlinie borders on cards/buttons at rest; reserve shadows for hover/interaction (Machined-Edge Rule).",
+      "Preserve prefers-reduced-motion handling for the gear canvas, chip float, scroll-reveal, and morph blob — non-negotiable per PRODUCT.md accessibility requirements.",
+      "Keep body and label text at or above current contrast (Tinte Gedämpft #666 on Warmes Papier ≈ 5.7:1). PRODUCT.md calls for higher contrast and slightly larger type for an older driver demographic — never lower.",
+      "Keep the phone CTA visually dominant and reachable from the top of every viewport, including mobile."
+    ],
+    "donts": [
+      "Don't introduce a second saturated hue (blue, green, gold) — sterile corporate-blue chain workshops ('Generische Ketten-Werkstätten') are an explicit PRODUCT.md anti-reference.",
+      "Don't add chrome, glossy gradients, dramatic studio photography, or glassmorphism cards — the 'Glossy Autohaus-Site' luxury-dealer anti-reference PRODUCT.md rules out.",
+      "Don't add clipart, stock 'handshake' icons, drop-shadowed text, or dense unstyled blocks — 'Veraltete Kleinbetrieb-Site' territory.",
+      "Don't use border-left/border-right colored stripes as a UI pattern. The .vorteil-item red vertical bar is the one existing instance and should not be replicated elsewhere.",
+      "Don't use gradient text (background-clip: text) for emphasis. Emphasis is carried by the .accent color swap (Werkstatt-Tinte → Werkstatt-Rot) on a single word, nothing more.",
+      "Don't hide the phone CTA on mobile. The current .nav-links { display: none } below 900px removes the nav's tap-to-call affordance — any mobile-nav redesign must keep a call action visible."
+    ]
+  }
+}
