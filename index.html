@@ -258,30 +258,6 @@
 
     .hero-copy { position: relative; z-index: 2; }
 
-    .hero-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      font-size: 0.75rem;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--accent);
-      background: var(--accent-dim);
-      border: 1px solid rgba(232,34,46,0.2);
-      border-radius: var(--radius-pill);
-      padding: 0.35rem 1rem;
-      margin-bottom: 1.75rem;
-    }
-
-    .hero-tag::before {
-      content: '';
-      width: 7px; height: 7px;
-      border-radius: 50%;
-      background: var(--accent);
-      animation: dot-blink 2.5s ease-in-out infinite;
-    }
-
     @keyframes dot-blink {
       0%, 100% { opacity: 1; }
       50%       { opacity: 0.25; }
@@ -428,12 +404,8 @@
       font-weight: 700;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: var(--accent);
-      background: var(--accent-dim);
-      border: 1px solid rgba(232,34,46,0.18);
-      border-radius: var(--radius-pill);
-      padding: 0.3rem 0.9rem;
-      margin-bottom: 1.1rem;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
     }
 
     .section-headline {
@@ -961,8 +933,6 @@
   <section id="hero">
 
     <div class="hero-copy">
-      <div class="hero-tag">Autowerkstatt Hockenheim · seit 40 Jahren</div>
-
       <h1 class="hero-h1">
         Ihr Fahrzeug.<br>
         <span class="accent">Unsere</span><br>
