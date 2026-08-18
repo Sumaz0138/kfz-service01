@@ -530,6 +530,10 @@
       border-color: rgba(232,34,46,0.12);
     }
 
+    .card-img-wrap {
+      position: relative;
+    }
+
     .card-img {
       width: 100%;
       height: 190px;
@@ -537,6 +541,23 @@
       opacity: 0.75;
       filter: saturate(0.6);
       transition: opacity 0.35s, filter 0.35s;
+    }
+
+    .ai-badge {
+      position: absolute;
+      bottom: 8px;
+      right: 10px;
+      font-size: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: rgba(255,255,255,0.6);
+      background: rgba(0,0,0,0.35);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      padding: 2px 7px;
+      border-radius: 99px;
+      pointer-events: none;
+      user-select: none;
     }
 
     .bento-card:hover .card-img {
@@ -574,7 +595,7 @@
     /* Tall card */
     .bento-card.tall { display: flex; flex-direction: column; }
 
-    .tall-img-wrap { flex: 1; overflow: hidden; min-height: 0; }
+    .tall-img-wrap { flex: 1; overflow: hidden; min-height: 0; position: relative; }
 
     .tall-img-wrap img {
       width: 100%;
@@ -1020,12 +1041,15 @@
 
         <!-- 1: Fahrzeugreparatur – groß -->
         <div class="bento-card span-2 reveal delay-1">
-          <img
-            src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=900&h=200&fit=crop&q=80"
-            alt="Fahrzeugreparatur"
-            class="card-img"
-            loading="lazy"
-          >
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f?w=900&h=200&fit=crop&q=80"
+              alt="Fahrzeugreparatur"
+              class="card-img"
+              loading="lazy"
+            >
+            <span class="ai-badge">Mit KI erstellt</span>
+          </div>
           <div class="card-body">
             <div class="card-icon">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#e8222e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
@@ -1043,6 +1067,7 @@
               alt="Ölwechsel"
               loading="lazy"
             >
+            <span class="ai-badge">Mit KI erstellt</span>
           </div>
           <div class="card-body">
             <div class="card-icon">
